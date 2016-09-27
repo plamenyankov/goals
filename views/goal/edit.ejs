@@ -1,0 +1,11 @@
+<%- layout('index') -%>
+<div class="col-md-12">
+    <form class="form-inline" action="/edit" method="post">
+        <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail3">Edit Goal</label>
+            <input type="text" class="form-control" name="title" value="<%= goal.title %>">
+        </div>
+        <input type="hidden" name="id" value="<%= goal._id %>"/>
+        <button type="submit" class="btn btn-default">Edit</button>
+    </form>
+</div>

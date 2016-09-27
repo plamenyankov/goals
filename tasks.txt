@@ -1,0 +1,9 @@
+create layout with nav
+create CRUD pages for goals
+install bootstrap
+
+order routes to be in their routers
+
+
+
+
